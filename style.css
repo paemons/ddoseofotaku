@@ -3,21 +3,23 @@
 .body{
   background-color: black;
     font-family: 'Montserrat', sans-serif, bold ;
+    font-weight: bold;
 }
 #particles-js {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  background-color: black;
+  height: 130%;
+  background-color: #300000;
   position: absolute;
 }
 /* DEFINE YOUR OWN LINK BUTTON STYLES HERE */
 body .linktree__container .linktree__wrap .linktree__main--content .linktree__links .linktree__links--item a {
-  border-radius: 20px;
-  background-color: #ffffff;
-  color: black;
+  border-radius: 5px 20px;
+  background: white;
+  color: white
   font-weight: 600;
+  border: 2px double #FD0303;
 }
 body .linktree__container .linktree__wrap .linktree__main--content .linktree__links .linktree__links--item a:hover {
   background-color: #910000;
@@ -28,13 +30,15 @@ body {
   justify-content: center;
   background-color: black;
 }
+/*BACKGROUND CONTAINER*/
 body .linktree__container {
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 85%;
-  background-color: black;
-  top: 20%;
+  background: #290101;
+  top: 10%;
+  border-radius: 57px 10px 10px 10px;
 
   /* Footer Styles */
 }
@@ -46,6 +50,7 @@ body .linktree__container .linktree__wrap {
   justify-content: flex-start;
   padding: 10px 15px;
   width: 100%;
+  border-radius: 57px 10px 10px 10px;
 }
 body .linktree__container .linktree__wrap .linktree__header {
   display: flex;
@@ -58,14 +63,14 @@ body .linktree__container .linktree__wrap .linktree__header .linktree__merchant-
   width: 70px;
   height: 70px;
   margin: 5px 15px;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 body .linktree__container .linktree__wrap .linktree__header .linktree__title {
   max-width: 100%;
   margin: 10px 0 10px 0;
   font-size: 16px;
   font-weight: 600;
- line-height: 1;
+  line-height: 1;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -80,14 +85,14 @@ body .linktree__container .linktree__wrap .linktree__header .linktree__profile {
 body .linktree__container .linktree__wrap .linktree__main--content {
   display: flex;
   flex-direction: column-reverse;
-  gap: 20px;
+  gap: 15px;
   /* Link Buttons */
   /* Social Link Icons */
 }
 body .linktree__container .linktree__wrap .linktree__main--content .linktree__links {
   display: flex;
   flex-direction: column;
-  margin: 0 25px;
+  margin: 0 5px;
   gap: 10px;
   /* Link Button */
 }
